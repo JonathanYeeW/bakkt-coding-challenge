@@ -24,14 +24,14 @@ Please make sure and document any assumptions and/or constraints you came up wit
 
 #### commands
 
-0. (optional): Open the Chrom debugging tool (http://localhost:8081/debugger-ui/)
-1. to run the application, start Metro by running `npx react-native start`.
-2. next, run the application on ios via Simulator (MacOS) by running `npx react-native run-ios`
+0. (optional): Open the Chrome debugging tool (http://localhost:8081/debugger-ui/)
+1. start Metro (JavaScript bundler) by running `npx react-native start`.
+2. run the application on ios with Simulator (MacOS) by running `npx react-native run-ios`
 
 ## Notes
 
-- This application was developed using the React Native CLI and does not include any Expo dependencies. It will require Simulator (MacOS) to deploy for development.
-- I chose not to separate my logic from App.js to Main.js because I typically use App.js as an entry point for logging in or entering meta data (player names, etc).
+- This application was developed using the React Native CLI and does not include any Expo dependencies. It will require Simulator (MacOS) to deploy for ios development.
+- I chose to separate my logic from App.js to Main.js because I would use App.js as an entry point for logging in and/or entering meta data (player names, etc).
 
 ## With More Time...
 
