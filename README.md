@@ -24,7 +24,7 @@ Please make sure and document any assumptions and/or constraints you came up wit
 
 #### commands
 
-0. (optional): I find that opening the debugger first (http://localhost:8081/debugger-ui/) makes the loading time faster.
+0. (optional): Open the Chrom debugging tool (http://localhost:8081/debugger-ui/)
 1. to run the application, start Metro by running `npx react-native start`.
 2. next, run the application on ios via Simulator (MacOS) by running `npx react-native run-ios`
 
@@ -32,7 +32,8 @@ Please make sure and document any assumptions and/or constraints you came up wit
 
 - This application was developed using the React Native CLI and does not include any Expo dependencies. It will require Simulator (MacOS) to deploy for development.
 - I chose not to separate my logic from App.js to Main.js because I typically use App.js as an entry point for logging in or entering meta data (player names, etc).
-- If I had more time I would
+
+## With More Time...
 
 1. Add unit testing to the game and board utilities
 2. Add the functionality for players to input their names at login.
