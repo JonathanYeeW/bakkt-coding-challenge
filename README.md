@@ -21,12 +21,13 @@ Please make sure and document any assumptions and/or constraints you came up wit
 #### installation
 
 1. clone the repository and run `npm install` in the root directory.
+2. navigate into the ios folder `cd ios`, run `pod install`, and navigate out `cd ..`
 
 #### commands
 
-0. (optional): Open the Chrome debugging tool (http://localhost:8081/debugger-ui/)
 1. start Metro (JavaScript bundler) by running `npx react-native start`.
-2. run the application on ios with Simulator (MacOS) by running `npx react-native run-ios`
+2. optional: Open the Chrome debugging tool (http://localhost:8081/debugger-ui/)
+3. run the application on ios with Simulator (MacOS) by running `npx react-native run-ios`
 
 ## Notes
 
